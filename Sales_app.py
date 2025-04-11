@@ -3,7 +3,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load('/content/ridge_model.pkl')
+model = joblib.load('ridge_model.pkl')
 
 def main():
     st.title("Sales Prediction")
